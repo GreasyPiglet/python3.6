@@ -20,3 +20,9 @@ Tools -> Build System -> New Build System
       "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
       "selector": "source.python"
 }
+
+
+#### 插件
+shift+cmd+p  -> install package 搜索
+a.插件Anaconda
+b.插件SublimeCodeIntel
