@@ -18,3 +18,23 @@ print(isinstance(a,str))
 
 #type()不会认为子类是一种父类类型。
 #isinstance()会认为子类是一种父类类型。
+#
+#
+#
+
+student = {'Tom', 'Jim', 'Mary', 'Tom', 'Jack', 'Rose'}
+
+if ('ATom' in student):
+     print('in')
+else:
+     print('no in')
+
+
+
+A = set('许丽华是个好老婆')
+B = set('许丽华个MM')
+print(A)
+print(A-B)
+print(A|B)
+print(A&B)
+print(A^B)
